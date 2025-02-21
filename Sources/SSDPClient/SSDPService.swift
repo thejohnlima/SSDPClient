@@ -25,7 +25,7 @@ public class SSDPService {
             - host: The host of service
             - response: The discovery response.
     */
-    init(host: String, response: String) {
+    public init(host: String, response: String) {
         self.host = host
         
         let headers = self.parse(response)
